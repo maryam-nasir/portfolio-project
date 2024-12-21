@@ -1,6 +1,8 @@
 # My Portfolio Project
 
-This project is my personal portfolio showcasing my projects, skills and work experience. It is built using Next.js. Access [here]().
+This project is my personal portfolio showcasing my projects, skills and work experience. It is built using Next.js and is fully responsive. Access [here]().
+
+![](./screenshot.png)
 
 ## Table of contents
 
@@ -8,7 +10,6 @@ This project is my personal portfolio showcasing my projects, skills and work ex
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Access the Deployed version on Vercel](#access-the-deployed-version-on-vercel)
-- [Acknowledgements](#acknowledgements)
 
 ## Tech Stack:
 
@@ -31,7 +32,7 @@ This project is my personal portfolio showcasing my projects, skills and work ex
 
 - **Awards Section**: A list of the accomplishments and awards I received.
 
-- **Contact Me Section**: A form to get get in touch with me for potential collaborations or inquiries. The message will be directly sent to my email address.
+- **Contact Me Section**: A form to get in touch with me for potential collaborations or inquiries. The message will be directly sent to my email address.
 
 ## Getting Started
 
@@ -57,7 +58,7 @@ npm install
 ```
 
 **Set Up Environment Variables**<br />
-.env file is only required for Contact Me section which will send email to my email address. Rest of the app will function fine without it too.
+`.env` file is only required for Contact Me section which will send email to my email address. Rest of the app will function fine without it too.
 
 Create a `.env` file at the root of the project and copy the following content:
 
@@ -72,9 +73,9 @@ MY_DEST_EMAIL=
 ```
 
 Replace the placeholder values with your actual credentials:
-`MONGODB_URI`: Put the link of your MongoDB cluster here.
-`MY_EMAIL`: Email address to be used for sending email.
-`MY_PASS`: Password for about email account.
+`MONGODB_URI`: Put the link of your MongoDB cluster here.  
+`MY_EMAIL`: Email address to be used for sending email.  
+`MY_PASS`: Password for above email account.  
 `MY_DEST_EMAIL`: Email address where you want to send the email.
 
 **Running the Project**<br />
