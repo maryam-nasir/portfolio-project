@@ -1,6 +1,6 @@
 # My Portfolio Project
 
-This project is my personal portfolio showcasing my projects, skills and work experience. It is built using Next.js and is fully responsive. Access [here]().
+This project is my personal portfolio showcasing my projects, skills and work experience. It is built using Next.js and is fully responsive. Access [here](https://portfolio-project-brown-sigma.vercel.app/).
 
 ![](./screenshot.png)
 
@@ -72,7 +72,7 @@ MY_PASS=
 MY_DEST_EMAIL=
 ```
 
-Replace the placeholder values with your actual credentials:
+Replace the placeholder values with your actual credentials:  
 `MONGODB_URI`: Put the link of your MongoDB cluster here.  
 `MY_EMAIL`: Email address to be used for sending email.  
 `MY_PASS`: Password for above email account.  
@@ -89,4 +89,4 @@ Open [http://localhost:3000](http://localhost:3000) in the browser to view the p
 
 ## Access the Deployed version on Vercel
 
-The app is deployed on Vercel and can be accessed here: [Personal Portfolio]().
+The app is deployed on Vercel and can be accessed here: [Personal Portfolio](https://portfolio-project-brown-sigma.vercel.app/).
